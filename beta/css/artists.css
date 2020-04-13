@@ -1,0 +1,27 @@
+#album_listing {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+}
+div.artist_photo {
+	float: left;
+	padding: 2px;
+	margin-right: 5px;
+	text-align:center;
+}
+div.artist_photo img {
+	border: 1px solid #777;
+}
+#artist_info {
+	clear: left;
+	overflow: auto;
+}
+.artist_details {
+	overflow:auto;
+}
+.album_details {
+
+}
+.album_playlist {
+
+}

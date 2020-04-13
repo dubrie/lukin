@@ -1,0 +1,88 @@
+#account_info_content {
+	text-align: left;
+	position: absolute;
+	left: 200px;
+	width: 550px;
+	margin: 10px 3px 3px 3px;
+	padding: 5px 5px 5px 5px;
+	font-family: Georgia,Verdana;
+	font-size: 11px;
+}
+#account_info_data {
+	margin-top:15px;
+	padding: 5px 5px 5px 5px;
+
+}
+table.account_info_data {
+	border: 0px;
+	text-align: left;
+}
+td.account_info_title {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+	vertical-align: top;
+}
+td.account_info_data_nochange {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	text-align: left;
+	color: #bbbbbb;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+td.account_info_data_change {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	text-align: left;
+	color: #000000;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+span.donebutton {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #000000;
+	background-color: #989898;
+	margin-left: 5px;
+	cursor: pointer;
+	color:#000000;
+}
+#account_info_uploads_section {
+	margin-top: 15px;
+	margin-left: 0px;
+	width:800px;
+}
+table.account_info_uploads {
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: left;
+	padding: 3px 3px 3px 3px;
+}
+table.account_info_uploads tr {
+	margin: 0px 2px 0px 4px;
+	padding: 3px 3px 3px 3px;
+	color: #ffffff;
+}
+table.account_info_uploads td.bottom {
+	height: 1px;
+}
+table.account_info_uploads td {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	background-color: #efefef;
+	color: #888888;
+}
+#password_good {
+	color: #00aa00;
+	font-weight: bold;
+}
+#password_bad {
+	color: #FF0000;
+	font-weight: bold;
+}

@@ -1,0 +1,147 @@
+body {
+	margin: 0px 0px 5px 0px;
+}
+div.lukin_title {
+	font-family: Georgia, Verdana;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+div.lukin_description {
+	font-family: Georgia, Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #9a9a9a;
+}
+#account_heading {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+#admin_account_heading {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+ul.account_heading{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 2px;
+	list-style-position: inside;
+	text-align: right;
+}
+ul.admin_account_heading{
+	background-color: #225500;
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 2px;
+	list-style-position: inside;
+	text-align: left;
+}
+li.account_heading{
+	color:#FFFFFF;
+	padding: 2px 5px 4px 5px;
+	margin: 1px 0px 4px 0px;
+	display: inline;
+}
+li.admin_account_heading{
+	color:#000000;
+	padding: 2px 5px 4px 5px;
+	margin: 1px 0px 4px 0px;
+	display: inline;
+}
+a.account_item:link {
+	color:#FFFFFF;
+	font-family: Verdana;
+	font-size: 10px;
+}
+a.account_item:visited {
+	color:#FFFFFF;
+	font-family: Verdana;
+	font-size: 10px;
+}
+a.account_item:hover {
+	color:#BBBBBB;
+	font-family: Verdana;
+	font-size: 10px;
+	text-decoration: none;
+}
+a.account_item:active {
+	color:#FFFFFF;
+	font-family: Verdana;
+	font-size: 10px;
+}
+span.account_item {
+	color:#FFFFFF;
+	font-family: Georgia;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+span.lukin_version {
+	color:#FFFFFF;
+	font-family: Tahoma;
+	font-size: 10px;
+}
+span.new_feature {
+	font-family: Georgia;
+	font-size: 11px;
+	color: red;
+	font-weight: bold;
+}
+#jotpad {
+	display: none;
+	background-color: #FFFFFF;
+	font-size: 11px;
+	font-family: Tahoma, Geneva;
+	padding: 2px 2px 2px 2px;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	width:300px;
+	height: 350px;
+}
+#jotpad_help {
+	width:100%; 
+	height:100%; 
+	z-index:2; 
+	background-color:#999999; 
+	position:absolute; 
+	filter:alpha(opacity=50) /* IE patch */;-moz-opacity:0.5; 
+	opacity:0.5; 
+	float:left; 
+	vertical-align:middle; 
+	text-align:center; 
+	display:none;
+}
+#popover_jotpad_help {
+	width:600px;
+	/* height:320px; */
+	z-index: 99;
+	position:absolute;
+	display: none;
+	text-align: left;
+	background-color:#FFFFFF;
+	font-family: Geneva;
+	font-size: 11px;
+	left: 100px;
+	padding: 5px 5px 5px 5px;
+	top: 75px;
+	
+}
+p {
+	padding-left: 5px;
+}
+p.jotpad_help_title {
+	font-family: Geneva;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	padding: 2px;
+	margin: 2px;
+}
+a.jotpad_help_link {
+	font-family: Geneva;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}

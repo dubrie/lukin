@@ -1,0 +1,16 @@
+div.album_photo {
+	float: left;
+	padding: 2px;
+	margin-right: 5px;
+	text-align:center;
+}
+div.album_photo img {
+	border: 1px solid #777;
+}
+#song_info {
+	clear: left;
+	overflow: auto;
+}
+#song_details {
+
+}

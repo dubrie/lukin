@@ -1,0 +1,19 @@
+<!-- BEGIN: main -->
+
+    <!-- BEGIN: init -->
+    <script language="javascript" type="text/javascript" src="classes/includes/tooltips.js"></script>
+    <link rel="stylesheet" href="classes/templates/{template}/style.css" type="text/css">
+    <script language="JavaScript" type="text/javascript">
+        {JavaScriptSettings}
+    </script>
+    <!-- END: init -->  
+    
+    <!-- EDIT ONLY FROM HERE!!! -->
+    
+    <!-- BEGIN: tooltip -->
+    <div class="tt_popup">
+        {content}
+    </div>
+    <!-- END: tooltip -->
+    
+<!-- END: main -->

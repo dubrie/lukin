@@ -1,0 +1,48 @@
+#sectiontip {
+	border: 2px solid #000000;
+	background-color: #FFFF66;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+	font-size:12px;
+	width:200px;
+	text-align:left;
+}
+#wikisection {
+	margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+}
+#wiki_info {
+	background-color: #cccccc;
+	border: 1px solid #777777;
+	padding: 5px 5px 5px 5px;
+}
+span.donebutton {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #000000;
+	background-color: #989898;
+	margin-left: 5px;
+	cursor: pointer;
+	color:#000000;
+}
+#wiki_info td.leftside {
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 5px;
+	text-align: right;
+}
+#wiki_info td.rightside {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+	color: #000000;
+}
+#wiki_info td.noclick_right {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+	color: #999999;
+}

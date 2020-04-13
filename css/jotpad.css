@@ -1,0 +1,16 @@
+#jotpad_content {
+	padding:2px 2px 2px 2px;
+	margin: 0px;
+	text-align: center;
+}
+
+textarea {
+	width:100%;
+	height: 330px;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Geneva;
+	font-size: 11px;
+	text-align: left;
+}

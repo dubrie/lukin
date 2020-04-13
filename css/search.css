@@ -1,0 +1,170 @@
+#search_content {
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#search_form {
+	margin-top: 10px;
+}
+#searchQuery {
+	color: #999999;
+
+}
+#search_form input.button { 
+	color: #000000;
+}
+#searchStatus {
+	clear: all;
+	color: #000066;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	width: 100px;
+}
+#searchStats {
+	margin-top: 5px;
+	color: #777777;
+	font-family: Georgia;
+	font-size: 14px;
+	padding-bottom: 2px;
+	clear: all;
+}
+#search_results {
+	font-family: Tahoma;
+	font-size: 10px;
+}
+ul.searchResult {
+	list-style-type: none;
+}
+ul.additions {
+	font-family: Tahoma;
+	font-size: 10px;
+	list-style-type: none;
+}
+ul.search_legend {
+	font-family: Tahoma;
+	font-size: 10px;
+	list-style-type: none;
+	float:left;
+	margin: 2px 2px 2px 2px;
+}
+li.song_legend {
+	background-color: #eeffaa;
+	border: 1px solid #99dd00;
+	width:34px;
+	text-align:center;
+	padding: 1px 3px 1px 3px;
+	float:left;
+	margin: 2px 1px 2px 1px;
+}
+li.album_legend {
+	background-color: #ffcc77;
+	border: 1px solid #ee2200;
+	width:34px;
+	text-align:center;
+	padding: 1px 3px 1px 3px;
+	float:left;
+	margin: 2px 1px 2px 1px;
+}
+li.artist_legend {
+	background-color: #ccffee;
+	border: 1px solid #00ccff;
+	width:34px;
+	text-align:center;
+	padding: 1px 3px 1px 3px;
+	float:left;
+	margin: 2px 1px 2px 1px;
+}
+li.album {
+	background-color: #ffcc77;
+	border: 1px solid #ee2200;
+	width: 450px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+}
+li.artist {
+	background-color: #ccffee;
+	border: 1px solid #00ccff;
+	width: 450px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+}
+li.song {
+	background-color: #eeffaa;
+	border: 1px solid #99dd00;
+	width: 450px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+}
+a.searchTop {
+	font-size: 12px;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+#suggestions_listing {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 500px;
+}
+span.suggestion {
+	font-size:11px;
+	font-family: Georgia;
+} 
+span.suggested_today {
+	font-size:13px;
+	font-family: Georgia;
+}
+ul.suggestions {
+	list-style-type: none;
+}
+li.suggestion {
+	background-color: #cceeff;
+	border: 1px solid #0066cc;
+	color: #003366;
+	width: 450px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+	font-size: 11px;
+	font-family: Georgia;
+}
+#random_thumbsup {
+	font-size: 10px;
+	font-family: Georgia;
+
+}
+td.thumbsup_songname {
+	font-size: 12px;
+	font-weight: bold;
+}
+td.thumbsup_artistname {
+	font-size: 11px;
+}
+td.thumbsup_albumname {
+	font-size: 11px;
+}
+div.thumbsupBox {
+	font-size: 10px;
+}
+span.thumbsup{
+	color:#0000FF;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 10px;
+}
+span.searchTip {
+	color:#AAAAAA;
+	font-size: 11px;
+	margin-left: 10px;
+}
+table.user_suggestions {
+	font-size: 10px;
+}
+span.header {
+	font-weight: bold;
+	border-bottom: 1px solid #0066cc;
+	margin-bottom: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+}

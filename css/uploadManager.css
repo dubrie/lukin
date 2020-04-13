@@ -1,0 +1,36 @@
+#manageUpload_content {
+	margin-top: 20px;
+	margin-left: 5px;
+}
+#manageUpload_data {
+	border: 1px solid #bbbbbb;
+	margin-top: 10px;
+}
+manageUpload_data.table {
+	width: 100%;	
+}
+#manageUpload_data th {
+	font-size: 11px;
+	font-family: Georgia, Verdana;
+}
+#manageUpload_data td {
+	border: 1px solid #bbbbbb;
+	font-family: Georgia, Verdana;
+	font-size: 9px;
+	vertical-align: middle;
+	text-align: center;
+}
+span.process_button {
+	padding: 4px 4px 4px 4px;
+	border: 1px solid #000000;
+	background-color: #777777;
+	cursor: pointer;
+	margin-right: 2px;
+}
+span.delete_button {
+	padding: 4px 4px 4px 4px;
+	border: 1px solid #000000;
+	background-color: #777777;
+	cursor: pointer;
+	margin-left: 2px;
+}

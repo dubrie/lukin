@@ -1,0 +1,13 @@
+#artist_listing {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+}
+#music_library_content li {
+	list-style-type: none;
+	clear: left;
+	overflow: auto;
+}
+div.artist_details {
+	padding: 3px;
+}

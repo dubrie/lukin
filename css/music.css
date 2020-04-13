@@ -1,0 +1,350 @@
+#music_content {
+	text-align: left;
+	position: absolute;
+	left:200px;
+	width: 800px;
+	margin: 10px 3px 3px 3px;
+	padding: 5px 5px 5px 5px;
+	font-family: Georgia,Verdana;
+	font-size: 11px;
+}
+#music_listing {
+	padding-top:10px;
+}
+#music_listing ul {
+	list-style-type: none;
+}
+
+span.duplicate_link {
+	color: #999999;
+	font-size:9px;
+	font-family: Tahoma;
+	text-decoration: underline;
+	cursor: pointer;
+}
+span.edit_link {
+	color: #ffffff;
+	font-size:11px;
+	font-family: Tahoma;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a.dup:link {
+	font-size:9px;
+	color: #ee2200;
+	text-decoration: underline;
+}
+a.dup:hover {
+	font-size:9px;
+	color: #ee2200;
+	text-decoration: underline;
+
+}
+a.dup:visited {
+	font-size:9px;
+	color: #ee2200;
+	text-decoration: underline;
+
+}
+a.dup:active {
+	font-size:9px;
+	color: #ee2200;
+	text-decoration: underline;
+
+}
+a.download_song_link {
+	font-size: 12px;
+	font-weight: bold;
+}
+span.donebutton {
+	font-family: Georgia, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #000000;
+	background-color: #989898;
+	margin-left: 5px;
+	cursor: pointer;
+	color:#000000;
+}
+div.tt_popup {
+	background-color:#bbbbbb;
+	padding: 2px 2px 2px 2px;
+	font-family: georgia, verdana;
+	font-size: 9px;
+}
+div.tt_popup_title {
+	font-size: 11px;
+	font-weight: bold;
+	border-bottom: 1px solid #000000;
+}
+div.tt_popup_songlist {
+	font-size: 9px;
+	font-weight: normal;
+}
+#artist_info {
+	padding: 5px 5px 5px 5px;
+	background-color: #ababab;
+	text-align:center;
+}
+#artistName {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #000000;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#album_list {
+	width: 300px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	margin-left: 30px;
+}
+#AlbumHeader {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	padding: 5px 5px 5px 5px;
+}
+#albumInstructions {
+	font-size:10px;
+	color: #999999;
+}
+#albumListing {
+	padding: 0px 5px 5px 20px;
+}
+#artist_info td.leftside {
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 5px;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: top;
+}
+#artist_info td.rightside {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+}
+#albumListing {
+	font-size: 10px;
+}
+#album_info {
+	padding: 5px 5px 5px 5px;
+	background-color: #ababab;
+	text-align:center;
+}
+#albumName {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #000000;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#song_list {
+	width: 400px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	margin-left: 20px;
+}
+#SongHeader {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	padding: 5px 5px 5px 5px;
+}
+#SongInstructions {
+	font-size:10px;
+	color: #999999;
+	padding-bottom:15px;
+}
+#SongListing {
+	padding: 0px 5px 5px 0px;
+}
+#album_info td.leftside {
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 5px;
+	text-align: right;
+}
+#album_info td.rightside {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+}
+#songListing {
+	font-size: 10px;
+}
+#popover_suggestion_div {
+	width:100%; 
+	height:100%; 
+	z-index:2; 
+	background-color:#999999; 
+	position:absolute; 
+	filter:alpha(opacity=50) /* IE patch */;-moz-opacity:0.5; 
+	opacity:0.5; 
+	float:left; 
+	vertical-align:middle; 
+	text-align:center; 
+	display:none;
+}
+#popover_suggestion_div_content {
+	width:100%;
+	height:100%;
+	z-index: 99;
+	position:absolute;
+	display: none;
+	text-align: center;
+}
+#suggestion_form {
+	padding: 5px 5px 5px 5px;
+	margin-top: 50px;
+	text-align: center;
+	width:400px;
+	height:100px;
+	font-size: 11px;
+	font-weight: bold;
+	background-color:#ffffff;
+	z-index: 99;
+	opacity: 1;
+	vertical-align: middle;
+}
+span.suggestion_title {
+	font-family: Georgia;
+	font-size: 14px;
+	font-weight: bold;
+}
+span.suggestion_description {
+	font-family: Georgia;
+	font-size: 10px;
+}
+span.suggestion_item {
+	font-family: Georgia;
+	font-size: 10px;
+	font-weight: bold;
+}
+span.suggestion_button {
+	padding: 3px 3px 3px 3px;
+	margin: 3px 2px 3px 2px;
+	font-size:12px;
+	color: #ffffff;
+	cursor: pointer;
+}
+li.album {
+	background-color: #ffcc77;
+	border: 1px solid #ee2200;
+	width: 300px;
+	padding: 2px 2px 2px 2px;
+	margin-bottom: 1px;
+	font-size: 14px;
+	font-family: arial rounded MT;
+	font-weight: bold;
+}
+li.album td {
+	font-size: 14px;
+	font-family: arial rounded MT;
+	font-weight: bold;
+}
+li.artist {
+	background-color: #ccffee;
+	border: 1px solid #00ccff;
+	width: 275px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+}
+li.song {
+	background-color: #eeffaa;
+	border: 1px solid #99dd00;
+	width: 275px;
+	padding: 2px 2px 2px 7px;
+	margin-bottom: 1px;
+}
+span.expander {
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	color: #555555;
+	cursor: pointer;
+	padding-left: 4px;
+}
+table.song_details{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.song_details td{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+td.thumbsup_section {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Georgia;
+	padding-left: 2px;
+}
+
+tr {
+	margin: 0px 0px 0px 0px;
+}
+td.song_title{
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Georgia;
+	text-align: right;
+	padding-right: 2px;
+}
+td.song_detail {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Georgia;
+	text-align: left;
+	padding-left: 2px;
+}
+span.thumbsupNumber {
+	font-size:14px;
+	font-weight: bold;
+	font-family: Verdana;
+	padding-left: 5px;
+}
+span.thumbsup{
+	color:#0000FF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+div#wastebin {
+	border: 2px dashed #CC0033;
+	padding: 5px 5px 5px 5px;
+	background-color: #F87;
+	width: 100px;
+	text-align: center;
+}
+.wastebin-active {
+	background-color: #9FD;
+}
+span.album_year {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 2px;
+}
+
+
+
+#music_library_navigation {
+	width: 100%;
+	text-align: center;
+}
+#music_library_navigation a{
+	padding: 2px 5px 2px 5px;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#music_library_navigation a:hover {
+	color: #eeff22;
+}

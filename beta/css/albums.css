@@ -1,0 +1,27 @@
+#song_listing {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+}
+#album_photo {
+	float: left;
+	padding: 2px;
+	margin-right: 5px;
+	text-align:center;
+}
+#album_photo img {
+	border: 1px solid #777;
+}
+#album_info {
+	clear: left;
+	overflow: auto;
+}
+#album_details {
+	overflow:auto;
+}
+.song_tracknum {
+	font-size:34px;
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+}

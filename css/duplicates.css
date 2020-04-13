@@ -1,0 +1,46 @@
+#top_section {
+	width: 700px;
+	margin-top:10px;
+	margin-left: 10px;
+}
+a {
+	font-size:10px;
+	padding: 2px 5px 2px 5px;
+	margin: 1px 4px 1px 4px;
+}
+#artist_listing {
+	margin-top: 15px;
+	background-color:#dcdcdc;
+	border: 1px solid #ee2200;
+	width:700px;
+}
+#selectedDiv {
+	display:none;
+	color:#000000;
+	font-size: 16px;
+	font-weight: bold;
+	border:1px solid #FFFF00;
+	background-color: #FFFFaa;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
+}
+#selectArtist {
+	display: none;
+}
+#duplicateArtists {
+	display:none;
+}
+#duplicates {
+	display:none;
+	display:none;
+	color:#000000;
+	font-size: 14px;
+	font-weight: normal;
+	border:1px solid #777777;
+	background-color: #cccccc;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
+}
+input.button {
+	display: none;
+}
